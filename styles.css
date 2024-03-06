@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 200;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  background: #ffedfa;
+}
+
+.container {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  background: #fff;
+  width: 300px;
+  height: 542px;
+  border-radius: 20px;
+}
+
+.display-container {
+  margin: 0px 20px 0px 32px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.result {
+  font-size: 64px;
+}
+
+.typed-display {
+  margin-top: 42px;
+  text-align: end;
+  margin-right: 25px;
+  font-size: 24px;
+  max-width: 200px;
+  overflow: hidden;
+  border: none;
+}
+
+button {
+  width: 71px;
+  height: 70px;
+  font-size: 28px;
+  background-color: #d9d9d9;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffc8dd;
+}
+
+section {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 4px;
+  margin: 2px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section:first-child button {
+  color: #ff99e2;
+}
+section:first-child button:last-child {
+  background-color: #ff99e2;
+  color: white;
+}
+
+section:nth-child(2) button:last-child {
+  background-color: #ff99e2;
+  color: white;
+}
+
+section:nth-child(3) button:last-child {
+  background-color: #ff99e2;
+  color: white;
+}
+
+section:nth-child(4) button:last-child {
+  height: 9rem;
+  border-bottom-right-radius: 20px;
+  background-color: #ff99e2;
+  color: white;
+}
+
+section:nth-child(5) button:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+section:last-child {
+  width: 100%;
+  margin-top: -72px;
+  margin-left: 5px;
+}
+
+section:last-child button:nth-child(2),
+section:last-child button:nth-child(1) {
+  width: 108px;
+}
+
+h2 {
+  opacity: 50%;
+}
+
+.github-link {
+  color: #000;
+}
+
+.github-link:hover {
+  cursor: pointer;
+  color: #ff99e2;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials-container {
+  position: absolute;
+  bottom: 5em;
+  left: 5em;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

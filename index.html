@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acky's Calc</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <input class="typed-display" id="typed-value" readonly />
+      <div class="display-container">
+        <div class="result" id="result">0</div>
+      </div>
+      <div class="btn-container">
+        <section>
+          <button class="btn" id="clear" onclick="clearDisplay()">AC</button>
+          <button class="btn" onclick="appendToDisplay('/')">&divide;</button>
+          <button class="btn" onclick="appendToDisplay('*')">&times;</button>
+          <button class="btn" id="delete-btn" onclick="deleteDisplay()">
+            del
+          </button>
+        </section>
+        <section>
+          <button class="btn" onclick="appendToDisplay('7')">7</button>
+          <button class="btn" onclick="appendToDisplay('8')">8</button>
+          <button class="btn" onclick="appendToDisplay('9')">9</button>
+          <button class="btn" onclick="appendToDisplay('+')">&plus;</button>
+        </section>
+        <section>
+          <button class="btn" onclick="appendToDisplay('4')">4</button>
+          <button class="btn" onclick="appendToDisplay('5')">5</button>
+          <button class="btn" onclick="appendToDisplay('6')">6</button>
+          <button class="btn" onclick="appendToDisplay('-')">&minus;</button>
+        </section>
+        <section>
+          <button class="btn" onclick="appendToDisplay('1')">1</button>
+          <button class="btn" onclick="appendToDisplay('2')">2</button>
+          <button class="btn" onclick="appendToDisplay('3')">3</button>
+          <button class="btn" onclick="calculate()">&equals;</button>
+        </section>
+        <section>
+          <button class="btn" onclick="appendToDisplay('.')">.</button>
+          <button class="btn" type="button " onclick="appendToDisplay('0')">
+            0
+          </button>
+        </section>
+      </div>
+      <div class="socials-container">
+        <div class="socials">
+          <h2>Jhon Michael Abbas</h2>
+          <a
+            href="https://github.com/Jchael12"
+            class="github-link"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github fa-3x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/483019bc72.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
